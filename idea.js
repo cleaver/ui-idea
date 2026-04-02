@@ -35,8 +35,8 @@ const App = () => {
         <button
             onClick={() => setActiveTab(id)}
             className={`w-full flex items-center space-x-3 px-4 py-3 rounded-xl transition-all ${activeTab === id
-                    ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-200'
-                    : 'text-slate-600 hover:bg-slate-100'
+                ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-200'
+                : 'text-slate-600 hover:bg-slate-100'
                 }`}
         >
             <Icon size={20} />
